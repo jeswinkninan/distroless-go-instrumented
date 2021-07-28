@@ -1,0 +1,1 @@
+# distroless-go-instrumented
