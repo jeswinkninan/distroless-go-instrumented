@@ -1,0 +1,12 @@
+%] docker scan local-distroless:v1
+
+Testing local-distroless:v1...
+
+Organization:      jeswinjkn
+Package manager:   deb
+Project name:      docker-image|local-distroless
+Docker image:      local-distroless:v1
+Platform:          linux/amd64
+Licenses:          enabled
+
+✔ Tested 3 dependencies for known issues, no vulnerable paths found.

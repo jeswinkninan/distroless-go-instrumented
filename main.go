@@ -11,5 +11,5 @@ import (
 func main() {
 	http.Handle("/metrics", promhttp.Handler())
 	http.HandleFunc("/web", web.SampleHandler)
-	log.Fatal(http.ListenAndServe("127.0.0.1:9091", nil))
+	log.Fatal(http.ListenAndServe("0.0.0.0:9091", nil))
 }
